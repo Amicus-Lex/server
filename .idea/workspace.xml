@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44818b44-8272-4438-b4b8-b4278df7e9b1" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/server.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/storage/logs/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/.env.example" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Console/Kernel.php" afterPath="$PROJECT_DIR$/app/Console/Kernel.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Controllers/Auth/ForgotPasswordController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Controllers/Auth/LoginController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Controllers/Auth/RegisterController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Controllers/Auth/ResetPasswordController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Middleware/EncryptCookies.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Middleware/RedirectIfAuthenticated.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Middleware/TrimStrings.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Middleware/TrustProxies.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Database/.gitignore" afterPath="$PROJECT_DIR$/app/Modules/Law/Database/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Database/Factories/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Law/Database/Factories/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Database/Migrations/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Law/Database/Migrations/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Database/Seeds/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Law/Database/Seeds/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Http/Controllers/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Law/Http/Controllers/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Http/Controllers/LawController.php" afterPath="$PROJECT_DIR$/app/Modules/Law/Http/Controllers/LawController.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Http/Middleware/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Law/Http/Middleware/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Models/Law.php" afterPath="$PROJECT_DIR$/app/Modules/Law/Models/Law.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Providers/ModuleServiceProvider.php" afterPath="$PROJECT_DIR$/app/Modules/Law/Providers/ModuleServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Modules/Law/Providers/RouteServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Repository/LawRepository.php" afterPath="$PROJECT_DIR$/app/Modules/Law/Repository/LawRepository.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Resources/Lang/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Law/Resources/Lang/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Resources/Views/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Law/Resources/Views/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Routes/api.php" afterPath="$PROJECT_DIR$/app/Modules/Law/Routes/api.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/Routes/web.php" afterPath="$PROJECT_DIR$/app/Modules/Law/Routes/web.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/config/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Law/config/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Law/module.json" afterPath="$PROJECT_DIR$/app/Modules/Law/module.json" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Database/.gitignore" afterPath="$PROJECT_DIR$/app/Modules/Loi/Database/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Database/Factories/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Loi/Database/Factories/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Database/Migrations/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Loi/Database/Migrations/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Database/Seeds/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Loi/Database/Seeds/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Http/Controllers/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Loi/Http/Controllers/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Http/Middleware/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Loi/Http/Middleware/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Providers/ModuleServiceProvider.php" afterPath="$PROJECT_DIR$/app/Modules/Loi/Providers/ModuleServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Modules/Loi/Providers/RouteServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Resources/Lang/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Loi/Resources/Lang/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Resources/Views/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Loi/Resources/Views/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Routes/api.php" afterPath="$PROJECT_DIR$/app/Modules/Loi/Routes/api.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/Routes/web.php" afterPath="$PROJECT_DIR$/app/Modules/Loi/Routes/web.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/config/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/Loi/config/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/Loi/module.json" afterPath="$PROJECT_DIR$/app/Modules/Loi/module.json" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Database/.gitignore" afterPath="$PROJECT_DIR$/database/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Database/Factories/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/User/Database/Factories/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Database/Migrations/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/User/Database/Migrations/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Database/Seeds/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/User/Database/Seeds/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Http/Controllers/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/User/Http/Controllers/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/app/Modules/User/Http/Controllers/UserController.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Http/Middleware/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/User/Http/Middleware/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Models/User.php" afterPath="$PROJECT_DIR$/app/Modules/User/Models/User.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Providers/ModuleServiceProvider.php" afterPath="$PROJECT_DIR$/app/Modules/User/Providers/ModuleServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Modules/User/Providers/RouteServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Repositories/UserRepository.php" afterPath="$PROJECT_DIR$/app/Modules/User/Repositories/UserRepository.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Resources/Lang/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/User/Resources/Lang/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Resources/Views/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/User/Resources/Views/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Routes/api.php" afterPath="$PROJECT_DIR$/app/Modules/User/Routes/api.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/Routes/web.php" afterPath="$PROJECT_DIR$/app/Modules/User/Routes/web.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/config/.gitkeep" afterPath="$PROJECT_DIR$/app/Modules/User/config/.gitkeep" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Modules/User/module.json" afterPath="$PROJECT_DIR$/app/Modules/User/module.json" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Providers/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Providers/BroadcastServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Providers/EventServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/artisan" afterPath="$PROJECT_DIR$/artisan" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/bootstrap/app.php" afterPath="$PROJECT_DIR$/bootstrap/app.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/bootstrap/cache/.gitignore" afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/auth.php" afterPath="$PROJECT_DIR$/config/auth.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/broadcasting.php" afterPath="$PROJECT_DIR$/config/broadcasting.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/cache.php" afterPath="$PROJECT_DIR$/config/cache.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/database.php" afterPath="$PROJECT_DIR$/config/database.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/filesystems.php" afterPath="$PROJECT_DIR$/config/filesystems.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/hashing.php" afterPath="$PROJECT_DIR$/config/hashing.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/logging.php" afterPath="$PROJECT_DIR$/config/logging.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/mail.php" afterPath="$PROJECT_DIR$/config/mail.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/queue.php" afterPath="$PROJECT_DIR$/config/queue.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/services.php" afterPath="$PROJECT_DIR$/config/services.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/session.php" afterPath="$PROJECT_DIR$/config/session.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/config/view.php" afterPath="$PROJECT_DIR$/config/view.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/database/.gitignore" afterPath="$PROJECT_DIR$/app/Modules/User/Database/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/database/factories/UserFactory.php" afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/database/migrations/2014_10_12_000000_create_users_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/phpunit.xml" afterPath="$PROJECT_DIR$/phpunit.xml" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/assets/js/app.js" afterPath="$PROJECT_DIR$/resources/assets/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/resources/assets/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/assets/js/components/ExampleComponent.vue" afterPath="$PROJECT_DIR$/resources/assets/js/components/ExampleComponent.vue" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/assets/sass/_variables.scss" afterPath="$PROJECT_DIR$/resources/assets/sass/_variables.scss" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/assets/sass/app.scss" afterPath="$PROJECT_DIR$/resources/assets/sass/app.scss" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/lang/en/auth.php" afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/lang/en/pagination.php" afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/lang/en/passwords.php" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/lang/en/validation.php" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/views/auth/login.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/views/auth/passwords/email.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/views/auth/passwords/reset.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/views/auth/register.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/views/home.blade.php" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/routes/api.php" afterPath="$PROJECT_DIR$/routes/api.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/routes/channels.php" afterPath="$PROJECT_DIR$/routes/channels.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/routes/console.php" afterPath="$PROJECT_DIR$/routes/console.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/server.php" afterPath="$PROJECT_DIR$/server.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/storage/app/.gitignore" afterPath="$PROJECT_DIR$/storage/app/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/storage/app/public/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/storage/framework/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/storage/framework/cache/.gitignore" afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/storage/framework/sessions/.gitignore" afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/storage/framework/testing/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/storage/framework/views/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/storage/logs/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/tests/CreatesApplication.php" afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/tests/Feature/ExampleTest.php" afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/tests/TestCase.php" afterPath="$PROJECT_DIR$/tests/TestCase.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/tests/Unit/ExampleTest.php" afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/webpack.mix.js" afterPath="$PROJECT_DIR$/webpack.mix.js" />
+      <change beforePath="$PROJECT_DIR$/amicus-lex-back/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/amicus-lex-back/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/amicus-lex-back/Procfile" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="server" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="last_opened_file_path" value="F:/wamp64/bin/php/php7.1.9/php.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44818b44-8272-4438-b4b8-b4278df7e9b1" name="Default" comment="" />
+      <created>1527534148537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527534148537</updated>
+      <workItem from="1527534150796" duration="1245000" />
+    </task>
+    <task id="LOCAL-00001" summary="heroku deploy">
+      <created>1527535051625</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1527535051625</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1245000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="heroku deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku deploy" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/amicus-lex-back/server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/amicus-lex-back/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
