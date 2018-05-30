@@ -12,7 +12,8 @@
     "caffeinated/modules": "^4.3",
     "fideloper/proxy": "^4.0",
     "laravel/framework": "5.6.*",
-    "laravel/tinker": "^1.0"
+    "laravel/tinker": "^1.0",
+    "parsedown/laravel": "^1.1"
   },
   "require-dev": {
     "filp/whoops": "^2.0",
