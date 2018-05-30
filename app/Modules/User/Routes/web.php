@@ -14,4 +14,5 @@
 Route::group(['prefix' => 'user'], function () {
     Route::get('/', "UserController@index");
     Route::get('/{id}', 'UserController@find');
+
 });

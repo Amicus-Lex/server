@@ -18,6 +18,16 @@ class LawController extends Controller
 
     }
 
-
+    public function themes()
+    {
+      $data =   array('themes' => array (
+            'personnes' => 'Livre Ier',
+            'propriétés' => 'Livre II',
+            'acquisition de biens' => 'Livre III',
+            'suretes' => 'Livre IV',
+            'disposition pour la mayotte' => 'Livre V',
+        ));
+        return json_encode($data);
+    }
 
 }
