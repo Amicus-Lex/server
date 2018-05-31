@@ -1,0 +1,32 @@
+{
+    "Law": {
+        "basename": "Law",
+        "name": "Law",
+        "slug": "law",
+        "version": "1.0",
+        "description": "where are the law will be stored",
+        "order": 1,
+        "id": 202069295,
+        "enabled": true
+    },
+    "Loi": {
+        "basename": "Loi",
+        "name": "Loi",
+        "slug": "loi",
+        "version": "1.0",
+        "description": "core module",
+        "id": 1753695682,
+        "enabled": true,
+        "order": 9001
+    },
+    "User": {
+        "basename": "User",
+        "name": "User",
+        "slug": "user",
+        "version": "1.0",
+        "description": "This is the description for the User module.",
+        "id": 2375276105,
+        "enabled": true,
+        "order": 9001
+    }
+}
