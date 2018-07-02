@@ -12,9 +12,9 @@
 */
 
 Route::group(['prefix' => 'law'], function () {
-    Route::get('/', function () {
-        return json_encode('This is the hehe module index page. Build something great!');
-    });
+    Route::get('/','LawController@get');
+    Route::get('/search','LawController@find');
     Route::get('/themes', 'LawController@themes');
-
+    Route::get('/themes/{themeId}', 'LawController@showTheme');
+    
 });
