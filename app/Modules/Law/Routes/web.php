@@ -13,7 +13,7 @@
 
 Route::group(['prefix' => 'law'], function () {
     Route::get('/', function () {
-        dd('This is the Law module index page. Build something great!');
+        return json_encode('This is the hehe module index page. Build something great!');
     });
     Route::get('/themes', 'LawController@themes');
 

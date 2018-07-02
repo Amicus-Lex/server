@@ -13,6 +13,6 @@
 
 Route::group(['prefix' => 'loi'], function () {
     Route::get('/', function () {
-        dd('This is the Loi module index page. Build something great!');
+        return('This is the Loi module index page. Build something great!');
     });
 });
