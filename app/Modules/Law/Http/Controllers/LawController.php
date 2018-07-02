@@ -11,6 +11,8 @@ namespace App\Modules\Law\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use willvincent\Feeds\Facades\FeedsFacade;
+use willvincent\Feeds\FeedsServiceProvider;
 
 class LawController extends Controller
 {
@@ -105,12 +107,10 @@ class LawController extends Controller
     }
     public function openFile(Request $request)
     {
-        $file = $request->input('file');
+        $file = $request->input('filename');
         return response()->file($file);
     }
     public function feed() {
-
-
 
     }
 
