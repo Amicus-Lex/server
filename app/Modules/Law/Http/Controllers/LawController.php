@@ -10,7 +10,8 @@ namespace App\Modules\Law\Http\Controllers;
 
 
 use App\Http\Controllers\Controller;
-use App\Illuminate\Http\Request;
+use Illuminate\Http\Request;
+use willvincent\Feeds\FeedsServiceProvider;
 
 class LawController extends Controller
 {
@@ -26,12 +27,40 @@ class LawController extends Controller
         'suretes' => 'Livre IV',
         'disposition pour la mayotte' => 'Livre V',
     );
-    
+    private $_number = array(
+
+            'dispositions generales',
+            'preliminaire',
+            'Ier',
+            'II',
+            'III',
+            'IV',
+            'V',
+            'VI',
+            'VII',
+            'VIII',
+            'IX',
+            'X',
+            'XI',
+            'XII',
+            'XIII',
+            'XIV',
+            'XV',
+            'XVI',
+            'XVII',
+            'XVIII',
+            'XIX',
+            'XX',
+            'XXI',
+
+    );
+
+
     public function themes()
     {
         $data =  array(
             'personnes' => 'Livre Ier',
-            'propriétés' => 'Livre II',
+            'proprietes' => 'Livre II',
             'acquisition de biens' => 'Livre III',
             'suretes' => 'Livre IV',
             'disposition pour la mayotte' => 'Livre V',
@@ -46,7 +75,37 @@ class LawController extends Controller
     }
 
     public function find(Request $request) {
-        dd($request);
+        $params = $request->input();
+        $bodyPath = '../app/Modules/Law/data/new_laws';
+        $bookTitle = $this->_books[$params['book']];
+        $fullPath = $bodyPath .  '/'. $bookTitle;
+        $titlePath = '';
+        if (array_key_exists('title', $params) === true) {
+            $title = intval($params['title']);
+            if ($title >= 1) {
+                $titlePath = 'Titre ' . $this->_number[$title];
+            } else {
+                $titlePath = $this->_number[$title];
+            }
+        }
+        $mdFile  = $this->findFile($params['article'], $params['notArticle'],$titlePath ,$fullPath);
+        return json_encode(['data'=> $mdFile]);
     }
-    
+
+    private function findFile($article = '', $notArticle = '', $title = '', $fullPath)
+    {
+        $data = glob($fullPath.  '/'.$title.'/*');
+        return $data;
+    }
+    public function openFile(Request $request)
+    {
+
+    }
+    public function rss() {
+        $feed = FeedsServiceProvider::make('https://www.senat.fr/rss/rapports.rss');
+        dd($feed);
+
+
+    }
+
 }

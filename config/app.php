@@ -151,6 +151,8 @@ return [
          * Package Service Providers...
          */
 
+        willvincent\Feeds\FeedsServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
@@ -187,6 +189,7 @@ return [
         'Crypt' => Illuminate\Support\Facades\Crypt::class,
         'DB' => Illuminate\Support\Facades\DB::class,
         'Eloquent' => Illuminate\Database\Eloquent\Model::class,
+        'Feeds'    => willvincent\Feeds\Facades\FeedsFacade::class,
         'Event' => Illuminate\Support\Facades\Event::class,
         'File' => Illuminate\Support\Facades\File::class,
         'Gate' => Illuminate\Support\Facades\Gate::class,
