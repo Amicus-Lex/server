@@ -16,5 +16,6 @@ Route::group(['prefix' => 'law'], function () {
     Route::get('/search','LawController@find');
     Route::get('/themes', 'LawController@themes');
     Route::get('/themes/{themeId}', 'LawController@showTheme');
-    
+    Route::get('/rss', 'LawController@feed');
+
 });

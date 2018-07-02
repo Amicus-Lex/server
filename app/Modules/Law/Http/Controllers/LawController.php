@@ -11,7 +11,6 @@ namespace App\Modules\Law\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use willvincent\Feeds\FeedsServiceProvider;
 
 class LawController extends Controller
 {
@@ -94,16 +93,23 @@ class LawController extends Controller
 
     private function findFile($article = '', $notArticle = '', $title = '', $fullPath)
     {
+        $files =[];
         $data = glob($fullPath.  '/'.$title.'/*');
-        return $data;
+        foreach ($data as $datum) {
+            preg_match("/[^\/]+$/", $datum   , $matches);
+
+            $files[$datum] = $matches[0];
+
+        }
+        return $files;
     }
     public function openFile(Request $request)
     {
-
+        $file = $request->input('file');
+        return response()->file($file);
     }
-    public function rss() {
-        $feed = FeedsServiceProvider::make('https://www.senat.fr/rss/rapports.rss');
-        dd($feed);
+    public function feed() {
+
 
 
     }
