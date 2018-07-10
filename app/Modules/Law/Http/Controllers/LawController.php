@@ -68,7 +68,12 @@ class LawController extends Controller
         );
         return json_encode($data);
     }
-    
+    public function getTheme(Request $request)
+     {
+         $theme = $request->input('theme');
+         return ['data' => $this->_books[$theme]];
+     }
+
     public function get() {
         $booksDir = scandir('../app/Modules/Law/data/new_laws');
         $booksResult = array_values(array_diff($booksDir, ['.', '..']));

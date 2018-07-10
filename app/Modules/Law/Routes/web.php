@@ -15,6 +15,7 @@ Route::group(['prefix' => 'law'], function () {
     Route::get('/','LawController@get');
     Route::get('/search','LawController@find');
     Route::get('/themes', 'LawController@themes');
+    Route::get('/theme', 'LawController@getTheme');
     Route::get('/rss', 'LawController@feed');
     Route::get('/file', 'LawController@openFile');
 
