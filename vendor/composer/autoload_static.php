@@ -360,6 +360,8 @@ class ComposerStaticInit5d7599518ea7823f1c012a00656c141c
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Modules\\Feedback\\Providers\\ModuleServiceProvider' => __DIR__ . '/../..' . '/app/Modules/Feedback/Providers/ModuleServiceProvider.php',
+        'App\\Modules\\Feedback\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Modules/Feedback/Providers/RouteServiceProvider.php',
         'App\\Modules\\Law\\Http\\Controllers\\LawController' => __DIR__ . '/../..' . '/app/Modules/Law/Http/Controllers/LawController.php',
         'App\\Modules\\Law\\Models\\Law' => __DIR__ . '/../..' . '/app/Modules/Law/Models/Law.php',
         'App\\Modules\\Law\\Providers\\ModuleServiceProvider' => __DIR__ . '/../..' . '/app/Modules/Law/Providers/ModuleServiceProvider.php',

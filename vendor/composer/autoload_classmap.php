@@ -20,6 +20,8 @@ return array(
     'App\\Http\\Middleware\\TrimStrings' => $baseDir . '/app/Http/Middleware/TrimStrings.php',
     'App\\Http\\Middleware\\TrustProxies' => $baseDir . '/app/Http/Middleware/TrustProxies.php',
     'App\\Http\\Middleware\\VerifyCsrfToken' => $baseDir . '/app/Http/Middleware/VerifyCsrfToken.php',
+    'App\\Modules\\Feedback\\Providers\\ModuleServiceProvider' => $baseDir . '/app/Modules/Feedback/Providers/ModuleServiceProvider.php',
+    'App\\Modules\\Feedback\\Providers\\RouteServiceProvider' => $baseDir . '/app/Modules/Feedback/Providers/RouteServiceProvider.php',
     'App\\Modules\\Law\\Http\\Controllers\\LawController' => $baseDir . '/app/Modules/Law/Http/Controllers/LawController.php',
     'App\\Modules\\Law\\Models\\Law' => $baseDir . '/app/Modules/Law/Models/Law.php',
     'App\\Modules\\Law\\Providers\\ModuleServiceProvider' => $baseDir . '/app/Modules/Law/Providers/ModuleServiceProvider.php',
